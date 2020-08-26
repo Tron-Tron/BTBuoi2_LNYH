@@ -1,0 +1,63 @@
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 750px;
+    padding: 0px 0px;
+    position: relative;
+   
+}
+
+
+.Header{
+    background-color: #e2e2e2;
+    font-size:24px;
+    line-height: 2;
+    height: 50px;
+    margin-block-start: 0;
+   
+}
+body{
+    background-color: lightgrey;
+    margin : 0;
+}
+.menu{
+    background-color: #c6a7a5;
+    font-size:14px
+   
+    /*margin-block-start: 0;*/
+}
+.menu ul{
+    padding-inline-start:0;
+    margin-block-start:-15px;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin: 0 20px;
+    font-size:17px;
+}
+.column{
+    font-size: 0;
+    margin-block-start: -14px;
+   
+}
+.column .column1{
+    background-color: #b1cfa8;
+    float: left;
+    font-size: 16px;
+    vertical-align: top;
+    width: 520px;
+    height: 360px;
+}
+.column .column2{
+    background-color: #a5a6ce;
+    float: left;
+    vertical-align: top;
+    font-size: 16px;
+    width: 230px;
+    height: 360px;
+}
+.Footer{
+    background-color: #d1d0a6;
+    margin-block-start: -19px;
+}
