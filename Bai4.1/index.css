@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./images/bg-body.png');
+    background-position: center top;
+    width: 1600px;
+    height: 450px;
+    background-repeat: no-repeat;
+    
+    /* background-size: 100% 100%;*/
+}
+.container{
+    width: 700px;
+    margin-left: 303px;
+    margin-right: auto;
+ 
+}
+.container .header{
+    background-image: url('./images/bg-header.jpg');
+    height: 140px;
+}
+.container .header h1{
+    color: #b2b3af;
+    line-height: 4;
+    margin-inline-start: 27px;
+}
+.menu{
+   background-image: url('./images/bg-menu.png');
+   background-repeat: no-repeat;
+}
+.menu ul li{
+    
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+    height: 35px;
+    
+}
+.menu ul li a{
+    /* position: relative;
+    z-index: 4; */
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 16px;
+   line-height: 2;
+}
+/* .menu ul li img{
+    margin-inline-start: -69px;
+} */
+
+.menu ul li:hover{
+    background-image: url('./images/bg-menu-hover.png');
+}
+.content{
+    width: 700px;
+    height: 370px;
+    background-color: white;
+    font-size:0;
+    display: inline-block;
+    margin-block-start: -13px;
+    
+}
+.content_right{
+    width: 520px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-block-start: -13px;
+}
+.content_left{
+    background-repeat: repeat-y;
+    width: 160px;
+    height: 173px;
+    font-size: 16px;
+    display: inline-block;
+    
+    /* border-style: 1px solid red; */
+    background-color: #d1cee8;
+    vertical-align: top;
+    margin-block-start: -14px;
+}
+.content_right h2{
+    color:#bdca5c ;
+    
+}
+.content_right h2,p{
+    margin-inline-start: 15px;
+}
+.content_left .feed{
+    background-image: url('./images/bg-feed.gif');
+    background-repeat: no-repeat;
+    width: 152px;
+    height: 25px;
+    left: 970px;
+    /* background-position: center; */
+}
+
+.content_left ul li a{
+    text-decoration: none;
+    color:black;
+    margin-inline-start: 10px;
+}
+.content_left ul li{
+    margin-block-end: 10px;
+    margin-block-start: 10px;
+}
+hr{
+    border: 1px solid lightsteelblue;
+}
+.content_left img{
+    margin-block-start: -9px;
+}
+.footer{
+    background-image: url('./images/bg-footer.jpg');
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 100px;
+}
+.content_left .feed .button_feed{
+    background-image: url('./images/button-feed.png');
+    /* background-position: center; */
+    margin-inline-start: 24px;
+    width:100px;
+    height: 25px;
+
+}
+
+.content_left .feed .button_feed:hover{
+    background-image: url('./images/button-feed.png');
+    background-position: center bottom;
+}
+
+.footer span{
+    color:white;
+    line-height: 10;
+    margin-inline-start: 12px;
+}
